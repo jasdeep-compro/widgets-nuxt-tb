@@ -1,0 +1,36 @@
+{
+  "name": "starter-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@comprodls/w-scoring-engine": "0.1.1",
+    "@comprodls/w-assessment-core": "0.1.1",
+    "@comprodls/w-input-froala-rich-text": "0.1.2",
+    "@comprodls/w-input-wiris-equation": "0.1.1",
+    "@comprodls/w-question-fib": "0.1.1",
+    "@comprodls/w-question-meqn": "0.1.1",
+    "@comprodls/w-rt-block": "0.1.2",
+    "@comprodls/w-question-plain-text": "0.1.1",
+    "@comprodls/w-question-rich-text": "0.1.3",
+    "@comprodls/w-single-question": "0.1.1",
+    "@comprodls/w-open-response": "0.1.1",
+    "@comprodls/w-video-block": "0.1.1",
+    "@comprodls/w-theme": "0.1.1",
+    "lit": "^3.0.0",
+    "nuxt": "^3.21.1",
+    "vue": "^3.5.30",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@types/node": "^25.5.2",
+    "sass-embedded": "^1.99.0"
+  }
+}
