@@ -18,8 +18,8 @@ importers:
         specifier: 0.1.1
         version: 0.1.1(@comprodls/w-assessment-core@0.1.1)(lit@3.3.2)
       '@comprodls/w-open-response':
-        specifier: 0.1.2
-        version: 0.1.2(lit@3.3.2)
+        specifier: 0.1.3
+        version: 0.1.3(lit@3.3.2)
       '@comprodls/w-question-fib':
         specifier: 0.1.1
         version: 0.1.1(lit@3.3.2)
@@ -540,8 +540,8 @@ packages:
       '@comprodls/w-assessment-core': 0.1.1
       lit: ^3.0.0
 
-  '@comprodls/w-open-response@0.1.2':
-    resolution: {integrity: sha512-8Z257OGV2JB/5oBUq0+3sfQS3wlRbdEtAqJu8fZP3HGepEGlYG8e4I/aQdpJmdVzt/suwHEshDVXOoBz+HUjCg==, tarball: https://npm.pkg.github.com/download/@comprodls/w-open-response/0.1.2/8daef9cea68dd1efe7db885d9394b85de07adfab}
+  '@comprodls/w-open-response@0.1.3':
+    resolution: {integrity: sha512-XA2H6GfqOky+U0MWs0nR2EiwQseHp7rdgsdyQt5dELeMRCQcvtAogxwv+ixrE7rgotutqAXryKJJfTEUgivIjQ==, tarball: https://npm.pkg.github.com/download/@comprodls/w-open-response/0.1.3/bc6cb421db4c72d70ffb9b02f9bd07c935e670a2}
     peerDependencies:
       lit: ^3.0.0
 
@@ -4956,7 +4956,7 @@ snapshots:
       '@comprodls/w-assessment-core': 0.1.1
       lit: 3.3.2
 
-  '@comprodls/w-open-response@0.1.2(lit@3.3.2)':
+  '@comprodls/w-open-response@0.1.3(lit@3.3.2)':
     dependencies:
       '@comprodls/w-assessment-core': 0.1.1
       lit: 3.3.2
